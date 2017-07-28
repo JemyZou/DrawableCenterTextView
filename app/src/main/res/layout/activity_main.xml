@@ -12,15 +12,13 @@
     tools:context="com.tts.drawablecentertextview.MainActivity">
     <!--cannot use drawableleft and drawableright the same time-->
     <com.tts.drawablecentertextview.widget.CenterDrawableTextView
-        app:pictureLocation="Left"
         android:drawableLeft="@mipmap/ic_launcher"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Demo1!" />
-    <!--<com.tts.drawablecentertextview.widget.CenterDrawableTextView
-        app:pictureLocation="Right"
+    <com.tts.drawablecentertextview.widget.CenterDrawableTextView
         android:drawableRight="@mipmap/ic_launcher"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Demo2!" />-->
+        android:text="Demo2!" />
 </LinearLayout>

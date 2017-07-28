@@ -7,10 +7,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <declare-styleable name="CenterDrawableTextView">
+<!--    <declare-styleable name="CenterDrawableTextView">
         <attr name="pictureLocation">
             <enum name="Left" value="0" />
             <enum name="Right" value="1" />
         </attr>
-    </declare-styleable>
+    </declare-styleable>-->
 </resources>
