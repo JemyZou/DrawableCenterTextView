@@ -21,7 +21,7 @@ public class CenterDrawableTextView extends TextView {
     }
 
     public CenterDrawableTextView(Context context, AttributeSet attrs) {
-        this(context, attrs, 0);
+        this(context, attrs, android.R.attr.textStyle);
     }
 
     public CenterDrawableTextView(Context context, AttributeSet attrs, int defStyleAttr) {
